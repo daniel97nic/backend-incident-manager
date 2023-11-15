@@ -1,0 +1,28 @@
+{
+  "name": "incident-management-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "dev": "nodemon --exec babel-node server.js"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.3",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "express-jwt": "6.0.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "method-override": "^3.0.0"
+  }
+}
